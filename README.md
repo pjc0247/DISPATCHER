@@ -100,6 +100,6 @@ Dispatched 1
 
 Usages of each API
 ----
-I've written a comment on every methods on my 'CustomSynchronizationContext' class. So plz seeeeeeeeeeeee DAT.
+I've written comments on every methods on my 'CustomSynchronizationContext' class. So plz seeeeeeeeeeeee DAT.
 <br>
 https://github.com/pjc0247/DISPATCHER/blob/master/src/CustomSynchronizationContext.cs
