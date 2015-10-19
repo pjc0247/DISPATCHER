@@ -88,3 +88,9 @@ Main 1
 Background 3
 Dispatched 1
 ```
+
+Usages of each API
+----
+I've written a comment each method on my 'CustomSynchronizationContext' class. So plz seeeeeeeeeeeee DAT.
+<br>
+https://github.com/pjc0247/DISPATCHER/blob/master/src/CustomSynchronizationContext.cs
