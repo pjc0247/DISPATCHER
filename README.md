@@ -4,7 +4,16 @@ Simple implementation of the `SynchronizationContext`.
 
 WhatWhatWhat
 ----
-As default, codes after the `await` keyword, may not be executed on the same thread. If you want to make your codes be executed in the same thread, you should implement the 'SynchronizationContext'.<br>
+As default, codes after the `await` keyword, may not be executed on the same thread.
+```c#
+Console.WriteLine("hello");
+
+await Task.Yield();
+
+/* This line of code may not be executed on the same thread above. */
+Console.WriteLine("world");
+```
+If you want to make your codes be executed in the same thread, you should implement the 'SynchronizationContext'.<br>
 Here is an simple implementation of the 'SynchronizationContext', and the below usages shows up how to use my 'CustomSynchronizationContext'. 
 
 Usage
