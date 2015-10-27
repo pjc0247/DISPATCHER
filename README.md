@@ -15,7 +15,7 @@ await Task.Yield();
 Console.WriteLine("world");
 ```
 If you want to make your codes be executed in the same thread, you should implement the 'SynchronizationContext'.<br>
-Here is an simple implementation of the 'SynchronizationContext', and the below usages shows up how to use my 'CustomSynchronizationContext'. 
+Here is an simple implementation of the 'SynchronizationContext', and the below usages show up how to use my 'CustomSynchronizationContext'. 
 
 Usage
 ----
