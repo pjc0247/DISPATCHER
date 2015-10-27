@@ -4,6 +4,7 @@ Simple implementation of the `SynchronizationContext`.
 
 WhatWhatWhat
 ----
+![icon](http://vignette2.wikia.nocookie.net/wowwiki/images/3/31/Gazlowe_face.jpg/revision/latest?cb=20090324202545)<br>
 As default, codes after the `await` keyword, may not be executed on the same thread.
 ```c#
 Console.WriteLine("hello");
